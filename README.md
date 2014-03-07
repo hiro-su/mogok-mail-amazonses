@@ -6,7 +6,7 @@
  2. update ```config.mailer_sender``` of [config/initializers/devise.rb](config/initializers/devise.rb#L13)
  3. update ```config.action_mailer.default_url_options``` of [config/environments/production.rb](config/environments/production.rb#L68)
  4. ```git add .``` and ```git commit -m "setting update"```
- 5. ```mogok create mail-test```
+ 5. ```mogok create mogok-mail-amazonses```
  6. ```git push mogok master```
  7. ```mogok build```
  8. ```mogok rake db:migrate```
